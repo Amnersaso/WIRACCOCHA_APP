@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Kipu Wira</string>
+    <string name="lista_notacompra">NOTA DE COMPRA</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_menu_formato_compra">MenuFormatoCompra</string>
+    <string name="tab_text_1">N Compra Local</string>
+    <string name="tab_text_2">Registro Peso</string>
+    <string name="tab_text_3">N Compra Nube</string>
+    <string name="tab_text_4">RP NUBE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="updatePrecio">Asignar Precio</string>
+    <string name="title_activity_aprobaciones">APROBACIONES</string>
+    <string name="title_home">Pendiente</string>
+    <string name="title_dashboard">Aprobado</string>
+    <string name="title_notifications">Desaprobado</string>
+    <string name="title_activity_produccion_format">ProduccionFormat</string>
+    <string name="tab_text_p1">Acti Procesadas</string>
+    <string name="tab_text_p2">Acti Pendientes</string>
+    <string name="title_activity_procesos_pendientes">ProcesosPendientes</string>
+    <string name="title_activity_menu_procesos_pendientes">MainActivity</string>
+    <string name="title_procesos">Procesados</string>
+    <string name="title_pendientes">Pendientes</string>
+    <string name="title_activity_menu_gac">ActivityMenuGac</string>
+</resources>

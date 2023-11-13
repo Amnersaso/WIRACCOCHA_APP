@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fondo_icono_back_"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/fondo_icono_back_"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:usesCleartextTraffic"
+        >
+        <activity
+            android:name="w.kipu.kipu.gac.ActivityMenuGac"
+            android:label="@string/title_activity_menu_gac"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="w.kipu.kipu.formtocompra.InsertEstiva.InsertEstiva"
+            tools:ignore="Instantiatable"></activity>
+        <activity android:name="w.kipu.kipu.formtocompra.AddCompraSerieNum"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="w.kipu.kipu.formtocompra.RegistroPeso"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="w.kipu.kipu.login.ListaXEnviar.ListaPorEnviar" />
+        <activity android:name="w.kipu.kipu.PrintPDF.PrintDocumentPDF" />
+        <activity android:name="w.kipu.kipu.login.Produccion.ui.mainProduccion.MenuProcesosPendientes" />
+        <activity
+            android:name=".login.Produccion.ui.mainProduccion.MenuPros.MenuProcesosPendientes"
+            android:label="@string/title_activity_menu_procesos_pendientes"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".login.Produccion.ui.mainProduccion.MenuPros.ProcesosPendientes"
+            android:label="@string/title_activity_procesos_pendientes"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".login.Produccion.ui.mainProduccion.MenuProceso.ProcesosPendientes"
+            android:label="@string/title_activity_procesos_pendientes"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="MissingClass" />
+        <activity android:name="w.kipu.kipu.login.Produccion.DialogoFormatoControl.DialogAddProductFormatControl"
+            tools:ignore="Instantiatable" />
+        <activity android:name="w.kipu.kipu.DataTableC"
+            tools:ignore="Instantiatable" />
+        <activity android:name="w.kipu.kipu.login.Produccion.DialogoFormatoControl.DialogoAddActividadFormaControl"
+            tools:ignore="Instantiatable" />
+        <activity android:name="w.kipu.kipu.login.Produccion.DialogoFormatoControl.DialogAddOperarioFormatControl"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="w.kipu.kipu.login.Produccion.MenuControlFormato.FormatoControl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="w.kipu.kipu.login.Produccion.DialogSerie.AppDialogSerie"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="w.kipu.kipu.login.Produccion.ProduccionFormat"
+            android:label="@string/title_activity_produccion_format"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="w.kipu.kipu.login.CrearCuenta"
+            tools:ignore="Instantiatable" />
+        <activity android:name="w.kipu.kipu.ORDAprobaciones.DetalleOcl_Osl" />
+        <activity
+            android:name="w.kipu.kipu.ORDAprobaciones.Aprobaciones"
+            android:label="@string/title_activity_aprobaciones" />
+        <activity
+            android:name="w.kipu.kipu.formtocompra.MostrarListaProductos.MostrarListaProductoRegistrados"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="w.kipu.kipu.gac.gac_Compra" />
+        <activity
+            android:name="w.kipu.kipu.formtocompra.InsertarFormatoPeso.InsertarPesoProducto"
+            tools:ignore="Instantiatable" />
+        <activity android:name="w.kipu.kipu.formtocompra.InsertarFormatoDialogo.Dialog_NCompra" />
+        <activity
+            android:name="w.kipu.kipu.formtocompra.MenuFormatoCompra"
+            android:label="@string/title_activity_menu_formato_compra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="w.kipu.kipu.ListaNotaCompra" />
+        <activity
+            android:name="w.kipu.kipu.formtocompra.FormatoCompra_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="w.kipu.kipu.login.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/MaterialInput" />
+        <activity android:name="w.kipu.kipu.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".formtocompra.InsertEstiva.InsertEstiva">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AGREGE ESTIVA / DESESTIVA"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:textColor="@color/colorBlanco"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6sp"
+        android:orientation="vertical">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sp_tipoEstiva"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="1dp"
+            android:layout_height="1dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:hint="Abreviatura"
+                android:padding="10dp"
+                android:textColorHint="@color/colorPrimary"
+                android:inputType="text"
+                android:textSize="18sp"
+                android:id="@+id/txt_abrevEstiva"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre"
+                android:padding="10dp"
+                android:textColorHint="@color/colorPrimary"
+                android:inputType="textCapCharacters"
+                android:textSize="18sp"
+                android:id="@+id/txt_nombreEstiva"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorBlanco"
+            android:text="Agregar"
+            android:textSize="18sp"
+            android:padding="10sp"
+            android:id="@+id/btn_agregarEstiva"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorBlanco"
+            android:text="Mostrar"
+            android:textSize="18sp"
+            android:padding="10sp"
+            android:id="@+id/btn_mostrarEstiva"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rvEstiva"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <style parent="android:Theme.DeviceDefault.Dialog" name="waitingDialog">
+
+    <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+    <item name="DialogTitleText">Cargando…</item>
+    <item name="DialogSpotColor">#86B43E</item>
+    <item name="DialogSpotCount">4</item>
+    </style>
+
+</resources>

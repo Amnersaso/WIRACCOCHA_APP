@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_add_compra_serie_num.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_app_dialog_serie.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_aprobaciones.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_data_table.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_detalle_ocl__osl.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_dialog__n_compra.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_dialog_add_actividad_forma_control.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_formato_control.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_formatocompra.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_gac.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_insert_estiva.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_lista_nota_compra.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_lista_por_enviar.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_lista_producto_registrados.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_menu_formato_compra.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_menu_procesos_pendientes.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/activity_produccion_format.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/fragment_pendientes.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/fragment_procesos_pendientes.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/fragment_produccion_format.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/fragment_rp_nube.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/fragment_selec_limpieza__continuo.xml" value="0.3625" />
+        <entry key="..\:/Android/wira SQLite/WIRACCOCHA1/app/src/main/res/layout/fragment_selec_limpieza_continuo__chia.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/drawable/margen_boton_swich.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/drawable/margen_botton.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_add_compra_serie_num.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_app_dialog_serie.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_aprobaciones.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_crear_cuenta.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_data_table.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_detalle_ocl__osl.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_dialog__n_compra.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_dialog_add_actividad_forma_control.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_dialog_add_operario_format_control.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_formato_control.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_formatocompra.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_gac.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_insert_estiva.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_insertar_peso_producto.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_lista_nota_compra.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_lista_por_enviar.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_lista_producto_registrados.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_login.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_menu_formato_compra.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_menu_gac.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_menu_procesos_pendientes.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_print_document_p_d_f.xml" value="0.33" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/activity_registro_peso.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/fragment_menu_formato_compra.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/fragment_ncompra.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_actividad.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_detaactivi_spinner.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_detalle_ordenes.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_li_produc_spinner.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_list_paletizado.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_list_x_enviar.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_lista_ocl_osl.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_lista_pesos_formato_compra.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_listaproduc_deta_compra.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_loading.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_lote_cant_spinner.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_mateprima.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_mplista_spinner.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_notacompra.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_pend_format_control.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_presentacion_spinner.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_producto_compra.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_producto_peso_print.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_proveedor_sqlite.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_puesto_spinner.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_serie_numero.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_spinner_one.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_tipro_actividad_spinner.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_tipro_spinner.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/item_usuario_sqlite.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/itemdetalle_listaproducto.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/itemlistaproducto.xml" value="0.33" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/layout/itemlistaproducto_gac.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/menu/botton_menu_procesos_pendientes.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/menu/main_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/TIC-WIRACCOCHA/Documents/WIRACCOCHA/wira SQLite _/WIRACCOCHA1/app/src/main/res/menu/search_menu.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

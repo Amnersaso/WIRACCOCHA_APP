@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/txt_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="QUINUA"
+            android:textSize="24px"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_lote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="LOTE"
+            android:textSize="24px"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/txt_product" />
+        <TextView
+            android:id="@+id/txt_peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SACOS"
+            android:textSize="24px"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_total" />
+        <TextView
+            android:id="@+id/txt_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KG"
+            android:textSize="24px"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_pUnitPesoprint" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pU"
+            android:textStyle="bold"
+            android:id="@+id/txt_pUnitPesoprint"
+            android:textSize="24px"
+            app:layout_constraintEnd_toStartOf="@+id/txt_subTotal"/>
+
+        <TextView
+            android:id="@+id/txt_subTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="subTotal"
+            android:textSize="24px"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:orientation="vertical"
+            android:background="@color/colorHint"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QUINUA"
+                android:textSize="7.5sp"
+                app:autoSizeTextType="none"
+                android:autoSizeMinTextSize="2sp"
+                android:autoSizeMaxTextSize="8sp"
+                android:autoSizeStepGranularity="1sp"
+                android:id="@+id/txt_pesos"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="la quinua está muy mojada"
+                    android:textSize="7.5sp"
+                    app:autoSizeTextType="none"
+                    android:autoSizeMinTextSize="2sp"
+                    android:autoSizeMaxTextSize="8sp"
+                    android:autoSizeStepGranularity="1sp"
+                    android:id="@+id/txt_observacionPrint"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

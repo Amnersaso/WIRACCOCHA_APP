@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NCMP12 - "
+                    android:textSize="20dp"
+                    android:id="@+id/txt_serieMatePrima"
+                    android:textColor="@color/colorsubtitulo"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="001"
+                    android:textSize="20dp"
+                    android:id="@+id/txt_numMatePrima"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10-05-2020"
+                        android:textSize="15dp"
+                        android:id="@+id/txt_fechaMatePrima"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Proveedor"
+                    android:enabled="false"
+                    android:textColor="@color/colorsubtitulo"
+                    android:id="@+id/txt_proveedorMatePrima"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:enabled="false"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Producto"
+                    android:enabled="false"
+                    android:textColor="@color/colorsubtitulo"
+                    android:id="@+id/txt_productoMatePrima"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:enabled="false"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="P.Unit"
+                        android:enabled="false"
+                        android:textColor="@color/colorsubtitulo"
+                        android:id="@+id/txt_punitMatePrima"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:enabled="false"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Peso"
+                        android:enabled="false"
+                        android:textColor="@color/colorsubtitulo"
+                        android:id="@+id/txt_pesoMatePrima"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="150dp"
+                    android:enabled="false"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="P. Total"
+                        android:enabled="false"
+                        android:textColor="@color/colorsubtitulo"
+                        android:id="@+id/txt_ptotalMatePrima"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="right"
+                        android:src="@drawable/ic_ver"
+                        android:id="@+id/btn_verDetalleMatePrima"/>
+                </LinearLayout>
+            </LinearLayout>
+            <com.ncorti.slidetoact.SlideToActView
+                android:id="@+id/sa_aprobarMatePrima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                card_view:slider_height="60dp"
+                card_view:area_margin="2dp"
+                card_view:inner_color="@color/colorPrimaryaccent"
+                card_view:outer_color="#e8f5e9"
+                card_view:text_size="20dp"
+                card_view:text="Aprobar..."
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="8dp" />
+
+            <com.ncorti.slidetoact.SlideToActView
+                android:id="@+id/sa_desaproMatePrima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                card_view:slider_height="50dp"
+                card_view:area_margin="2dp"
+                card_view:inner_color="#c62828"
+                card_view:outer_color="#ffcdd2"
+                card_view:text_size="20dp"
+                card_view:text="Desaprobar..."
+                card_view:slider_icon="@drawable/ic_delete_"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

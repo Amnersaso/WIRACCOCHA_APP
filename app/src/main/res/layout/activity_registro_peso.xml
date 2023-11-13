@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".formtocompra.RegistroPeso"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRO DE PESO"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="@color/colorBlanco"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:id="@+id/txt_tituloFormatoCompra"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="4dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <AutoCompleteTextView
+                                android:id="@+id/txt_nombreProductorRP"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:padding="10dp"
+                                android:inputType="textCapCharacters"
+                                android:completionThreshold="1"
+                                android:hint="Nombre Productor" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageButton
+                                android:layout_width="70dp"
+                                android:layout_height="50dp"
+                                android:backgroundTint="@color/colorPrimary"
+                                android:src="@drawable/ic_add_circle"
+                                android:id="@+id/btn_detallePendForControlRP"/>
+                            <ImageButton
+                                android:layout_width="70dp"
+                                android:layout_height="50dp"
+                                android:backgroundTint="@color/colorPrimary"
+                                android:src="@drawable/ic_ver"
+                                android:id="@+id/btn_verseriePendForControlRP"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:id="@+id/linearSerieNumRP"
+                            android:visibility="invisible">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Serie y Número"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rvSerieNumeroRP"/>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Placa Vehiculo"
+                                android:textColorHint="@color/colorPrimary"
+                                android:padding="10dp"
+                                android:inputType="textCapCharacters"
+                                android:textSize="20dp"
+                                android:id="@+id/txt_placaRP"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agregar Persona"
+                android:layout_marginStart="10dp"
+                android:id="@+id/ch_agregarPersonaRP"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="4dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:id="@+id/linearPersonaRP"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        card_view:boxStrokeColor="@color/colorBlanco">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Quien entrega"
+                            android:padding="10dp"
+                            android:inputType="textCapCharacters"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:id="@+id/txt_quienEntregaRP"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Quien cobra"
+                            android:textColorHint="@color/colorPrimary"
+                            android:padding="10dp"
+                            android:textSize="20dp"
+                            android:id="@+id/txt_nombreCobraRP"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insertar Peso"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/colorBlanco"
+                android:id="@+id/btn_insertarProductoRP"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agregar Estiva"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/colorBlanco"
+                android:id="@+id/btn_insertarEstivaRegistroPeso"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mostrar Peso"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/colorBlanco"
+                android:id="@+id/btn_mostrarProductoRP"
+                android:textSize="20dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/RecyclerProductosCompraRP"
+                android:scrollbars="vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asignar Precio"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorBlanco"
+                android:id="@+id/btn_AsignarPrecioRP"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
